@@ -1,7 +1,7 @@
 import React from 'react'
 import Heroimg from "../assets/HeroImg.jpg"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 import { Link } from "react-scroll";
 
 
@@ -12,8 +12,8 @@ const Home = () => {
   >
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             <div className="flex flex-col justify-center h-full"> 
-                <h2 className="text-4xl sm:text-7xl font-bold text-white"> I'm a front-end Developer</h2>
-                <p className="text-gray-500 py-4 max-w-md">dsfjdiosjfdslfkjldfkjdlfjlkdjf sjdfhksjdf sdfljhlds fkdsjfhsldf fjhdskfjh asdlfhldjjsfl</p>
+                <h2 className="text-4xl sm:text-7xl font-bold text-white">  Front-end React Developer</h2>
+                <p className="text-gray-500 py-4 max-w-md">As a web developer, I offer my expertise in developing and maintaining websites using a wide range of programming languages and frameworks.</p>
                 <div>
             <Link
               to="portfolio"

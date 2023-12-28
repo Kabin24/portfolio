@@ -6,6 +6,10 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import saas from "../assets/sass.png"
+import figma from "../assets/figma.png"
+import bootstrap from "../assets/bootstrap.png"
+
 
 const Skill = () => {
   const techs = [
@@ -40,22 +44,41 @@ const Skill = () => {
       style: "shadow-sky-400",
     },
     {
+      id: 6,
+      src: bootstrap,
+      title: "bootstrap",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 7,
+      src: saas,
+      title: "Saas",
+      style: "shadow-sky-400",
+    },
+    {
       id: 8,
+      src: figma,
+      title: "figma",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 9,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
+
   ];
 
   return (
     <div
-      name="Skills"
+      name="skill"
       className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+             Technical Skills
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
