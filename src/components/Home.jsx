@@ -27,6 +27,7 @@ const Home = () => {
               </span>
             </Link>
           </div>
+          
         </div>
 
         <div>
