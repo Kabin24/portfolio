@@ -6,7 +6,7 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <div className="flex flex-col md:flex-row bg-black text-white p-5">
+    <div className="flex flex-col md:flex-row bg-gray-800 text-white p-5">
       <div className="w-full md:w-1/3 mb-4 md:mb-0">
         <h3 className="font-bold text-center md:text-left">Copyright © {year}</h3>
       </div>
