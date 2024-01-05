@@ -1,7 +1,8 @@
 import React from 'react'
 import todolist from "../assets/Portfolia/todolist.png"
-import authentication from "../assets/Portfolia/authentication.png"
+
 import travelandtour from "../assets/Portfolia/travelandtour1.png"
+import ecommercesite from "../assets/Portfolia/landingpagr.jpg"
 
 const Portfolia = () => {
   const portfolios = [
@@ -13,9 +14,9 @@ const Portfolia = () => {
     },
     {
       id: 2,
-      src: authentication,
-      demoLink:'https://github.com/Kabin24/Authentication-with-React',
-      codeLink:'https://github.com/Kabin24/Authentication-with-React',
+      src: ecommercesite,
+      demoLink:'https://sastobazar24.netlify.app/',
+      codeLink:'https://github.com/Kabin24/e-commerce-site',
 
     },
     {
@@ -25,6 +26,7 @@ const Portfolia = () => {
       codeLink:'https://github.com/Kabin24/Responsive-Tour-and-Travel-Website',
 
     }
+  
     
   ];
 
