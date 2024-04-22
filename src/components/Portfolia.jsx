@@ -1,33 +1,30 @@
-import React from 'react'
-import todolist from "../assets/Portfolia/todolist.png"
+import React from "react";
+import todolist from "../assets/Portfolia/todolist.png";
 
-import travelandtour from "../assets/Portfolia/travelandtour1.png"
-import ecommercesite from "../assets/Portfolia/landingpagr.jpg"
+import travelandtour from "../assets/Portfolia/travelandtour1.png";
+import ecommercesite from "../assets/Portfolia/landingpagr.jpg";
+import movie from "../assets/Portfolia/movie.png";
 
 const Portfolia = () => {
   const portfolios = [
     {
       id: 1,
-      src: todolist,
-      demoLink:'https://storied-naiad-3812a3.netlify.app/',
-      codeLink:'https://github.com/Kabin24/todolist',
+      src: movie,
+      demoLink: "https://hdmovie0.netlify.app/",
+      codeLink: "https://github.com/Kabin24/Movie_website",
     },
     {
       id: 2,
       src: ecommercesite,
-      demoLink:'https://sastobazar24.netlify.app/',
-      codeLink:'https://github.com/Kabin24/e-commerce-site',
-
+      demoLink: "https://sastobazar24.netlify.app/",
+      codeLink: "https://github.com/Kabin24/e-commerce-site",
     },
     {
       id: 3,
-      src:travelandtour,
-      demoLink:'https://ghumantenp.netlify.app/',
-      codeLink:'https://github.com/Kabin24/Responsive-Tour-and-Travel-Website',
-
-    }
-  
-    
+      src: travelandtour,
+      demoLink: "https://ghumantenp.netlify.app/",
+      codeLink: "https://github.com/Kabin24/Responsive-Tour-and-Travel-Website",
+    },
   ];
 
   return (
@@ -53,7 +50,7 @@ const Portfolia = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={demoLink} target="_blank" rel="noopener noreferrer">
+                  <a href={demoLink} target="_blank" rel="noopener noreferrer c">
                     Demo
                   </a>
                 </button>

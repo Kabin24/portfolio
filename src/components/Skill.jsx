@@ -9,6 +9,7 @@ import tailwind from "../assets/tailwind.png";
 import saas from "../assets/sass.png"
 import figma from "../assets/figma.png"
 import bootstrap from "../assets/bootstrap.png"
+import nodejs from "../assets/node.png"
 
 
 const Skill = () => {
@@ -47,25 +48,31 @@ const Skill = () => {
       id: 6,
       src: bootstrap,
       title: "bootstrap",
-      style: "shadow-gray-400",
+      style: "shadow-purple-400",
     },
     {
       id: 7,
       src: saas,
       title: "Saas",
-      style: "shadow-sky-400",
+      style: "shadow-pink-400",
     },
     {
       id: 8,
       src: figma,
       title: "figma",
-      style: "shadow-gray-400",
+      style: "shadow-red-400",
     },
     {
       id: 9,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: nodejs,
+      title: "Node js",
+      style: "shadow-green-400",
     },
 
   ];
@@ -80,7 +87,7 @@ const Skill = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
              Technical Skills
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-10">These are the technologies & frameworks I've worked with</p>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8 text-center py-8 px-4 md:px-0">
